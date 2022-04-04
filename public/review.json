@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Mahin",
+        "details": "Ei product ti khubi valo",
+        "ratings": 4
+    },
+    {
+        "name": "Minhaj",
+        "details": "Motamuti ase",
+        "ratings": 3
+    },
+    {
+        "name": "John",
+        "details": "Dam hishebe kharap na",
+        "ratings": 3.5
+    },
+    {
+        "name": "Abraham",
+        "details": "Best product ever",
+        "ratings": 4.5
+    },
+    {
+        "name": "Tom",
+        "details": "Im satisfied",
+        "ratings": 4.5
+    },
+    {
+        "name": "Cruise",
+        "details": "Poisha usoool",
+        "ratings": 5
+    }
+]

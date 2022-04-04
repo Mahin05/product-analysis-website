@@ -2,7 +2,7 @@
 
 ## Live Server Link
 
-Open [https://laptop-shop-app.netlify.app/] (https://laptop-shop-app.netlify.app/) to view it in your browser.
+Open [Laptop-Shop-App] (https://laptop-shop-app.netlify.app/) to view it in your browser.
 
 ## Work done in this project
 ***

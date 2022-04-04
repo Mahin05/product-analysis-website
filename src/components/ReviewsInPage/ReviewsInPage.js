@@ -6,18 +6,22 @@ import './ReviewsInPage.css'
 
 
 const ReviewsInPage = () => {
-    const [reviews,setReviews]= useReviews()
-    const slicedReviews = reviews.slice(0,3);
+    const [reviews, setReviews] = useReviews()
+    const slicedReviews = reviews.slice(0, 3);
     return (
-        <div className='revie-in-page-style'>
-            <h2>Customers review ({slicedReviews.length})</h2>
-            {
-                slicedReviews.map(review => <ReviewInPage
-                key={review.id}
-                review={review}
-                ></ReviewInPage>)
-            }
-            <button className='btn-style-set'><Link className='link-style' to='/reviews'>See All Reviews</Link></button>
+
+        <div>
+            <h2 className='set-clr'>Customers review ({slicedReviews.length})</h2>
+
+            <div className='review-in-page-style'>
+                {
+                    slicedReviews.map(review => <ReviewInPage
+                        key={review.id}
+                        review={review}
+                    ></ReviewInPage>)
+                }
+                <button className='btn-style-set'><Link className='link-style' to='/reviews'>See All Reviews</Link></button>
+            </div>
         </div>
     );
 };

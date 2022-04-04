@@ -1,6 +1,16 @@
-@media screen and (max-width:480px){
-.revie-in-page-style{
+@media screen and (max-width:688px){
+.review-in-page-style{
     margin-left: 40% ;
+}
+.btn-style-set{
+    font-weight: 700;
+    border: none;
+    padding: 15px 40px;
+    color: white;
+    background-color:rgb(80, 170, 255);
+    border-radius: 5px;
+    margin-left: -60%;
+    margin-bottom: 30px;
 }
 }
 .btn-style-set{
@@ -10,10 +20,14 @@
     color: white;
     background-color:rgb(80, 170, 255);
     border-radius: 5px;
+    /* margin-left: 0; */
     margin-bottom: 30px;
 }
 .link-style{
     text-decoration: none;
     color: white;
     font-size: 17px;
+}
+.set-clr{
+    color: black;
 }

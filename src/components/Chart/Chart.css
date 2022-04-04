@@ -4,7 +4,7 @@
 h2{
     color:dodgerblue;
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:688px){
     .pos-set{
         margin-left: 0;
     }

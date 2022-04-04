@@ -12,7 +12,7 @@ span{
 }
 .writings p{
     text-align: justify;
-    margin: 10px;
+    margin-left: 10px;
     font-weight: 500;
 }
 .btn-style{
@@ -24,9 +24,18 @@ span{
     border-radius: 5px;
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:688px){
     .product-details{
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        width: auto;
+    }
+    .writings{
+        width: 90%;
+        margin-left: 1%;
+    }
+    .image-style{
+        width: 100%;
+        margin-left: 0;
     }
 }

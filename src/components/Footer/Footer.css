@@ -3,11 +3,11 @@
     color: white;
     padding: 40px;
 }
-@media screen and (max-width:480px){
+@media screen and (max-width:688px){
     .footer-style{
         background-color: rgb(2, 2, 54);
         color: white;
         padding: 40px;
-        width: 120%;
+        width: 80%;
     }
 }

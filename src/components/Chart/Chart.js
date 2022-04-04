@@ -1,8 +1,8 @@
 import React from 'react';
 import { Bar, BarChart, CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
-// import './MyLineChart.css'
+import './Chart.css'
 
-const MyLineChart = () => {
+const Chart = () => {
     const data =
         [
             {
@@ -46,14 +46,14 @@ const MyLineChart = () => {
     return (
         <div className='rechart-style'>
             <h2>Month wise sell</h2>
-            <LineChart width={400} height={300} data={data}>
+            <LineChart className='pos-set' width={400} height={300} data={data}>
                 <Line type="monotone" dataKey="sell" stroke="#8884d8" />
                 <XAxis dataKey="month" />
                 <YAxis />
                 <Tooltip></Tooltip>
             </LineChart>
             <h2>Investments vs revenue</h2>
-            <BarChart width={400} height={300} data={data}>
+            <BarChart className='pos-set'  width={400} height={300} data={data}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="month" />
                 <YAxis />
@@ -67,4 +67,4 @@ const MyLineChart = () => {
     );
 };
 
-export default MyLineChart;
+export default Chart;

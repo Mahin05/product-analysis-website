@@ -1,0 +1,32 @@
+.blog-style{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid saddlebrown;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.blog-style p{
+    font-size: large;
+    font-weight: 700;
+}
+.ans-style{
+    color: black;
+    font-weight: 500;
+}
+
+@media screen and (max-width:480px){
+    .blog-style{
+        text-align: justify;
+        margin-left: 17%;
+        border: 1px solid saddlebrown;
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+    .main-h2{
+        margin-left: 30%;
+    }
+}

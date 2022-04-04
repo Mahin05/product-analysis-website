@@ -5,7 +5,7 @@ import Home from './components/Home/Home'
 import About from './components/About/About'
 import NotFound from './components/NotFound/NotFound'
 import Reviews from './components/Reviews/Reviews';
-import MyLineChart from './components/MyLineChart/MyLineChart';
+import Chart from './components/Chart/Chart';
 import Blogs from './components/Blogs/Blogs'
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home/>} />
-        <Route path="/dashboard" element={<MyLineChart/>} />
+        <Route path="/dashboard" element={<Chart />} />
         <Route path="/reviews" element={<Reviews/>} />
         <Route path="/blogs" element={<Blogs/>} />
         <Route path="/about" element={<About />} />

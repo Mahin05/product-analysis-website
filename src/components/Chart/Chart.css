@@ -1,0 +1,11 @@
+.pos-set{
+    margin-left: 33%;
+}
+h2{
+    color:dodgerblue;
+}
+@media screen and (max-width:480px){
+    .pos-set{
+        margin-left: 0;
+    }
+}

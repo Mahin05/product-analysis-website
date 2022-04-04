@@ -1,0 +1,34 @@
+.review-in-home-page img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.review-in-home-page{
+    border: 1px solid rgba(135, 207, 235, 0.377);
+    width: 50%;
+    margin-top: 30px;
+    margin-left: 25%;
+    background-color:rgba(255, 248, 220, 0.205);
+}
+.style-set{
+    color:brown;
+}
+.style-set-p{
+    font-weight: 600;
+    color: black;
+}
+.p-set{
+    color: black;
+    font-weight: 700;
+}
+.style-set-ratings{
+    color:crimson;
+}
+@media screen and (max-width:480px){
+    .review-in-home-page{
+        border: 1px solid rgba(135, 207, 235, 0.288);
+        width: 100%;
+        margin-left: auto;
+    }
+}

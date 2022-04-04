@@ -1,12 +1,14 @@
 import React from 'react';
+import './ReviewInPage.css'
 
 const ReviewInPage = ({review}) => {
-    const {name,details,ratings} = review;
+    const {name,image,details,ratings} = review;
     return (
-        <div>
-            <h2>Name:{name}</h2>
-            <p>Comment: {details}</p>
-            <p>Ratings: {ratings}</p>
+        <div className='review-in-home-page'>
+            <img src={image} alt="" />
+            <h2>Name: <span className='style-set'>{name}</span> </h2>
+            <p className='p-set'>Comment: <span className='style-set-p'>{details}</span> </p>
+            <p className='p-set'>Ratings: <span className='style-set-ratings'>{ratings}</span> </p>
         </div>
     );
 };

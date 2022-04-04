@@ -1,0 +1,32 @@
+.product-details{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+.writings h1{
+    color: brown;
+    font-weight: 700;
+}
+
+span{
+    color:goldenrod;
+}
+.writings p{
+    text-align: justify;
+    margin: 10px;
+    font-weight: 500;
+}
+.btn-style{
+    font-weight: 700;
+    border: none;
+    padding: 15px 40px;
+    color: white;
+    background-color:coral;
+    border-radius: 5px;
+}
+
+@media screen and (max-width:480px){
+    .product-details{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}

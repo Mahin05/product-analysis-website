@@ -1,19 +1,15 @@
 import React from 'react';
 import useReviews from '../../hooks/useReviews';
 import ReviewInPage from '../../components/ReviewInPage/ReviewInPage'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import './ReviewsInPage.css'
 
 
 const ReviewsInPage = () => {
     const [reviews,setReviews]= useReviews()
     const slicedReviews = reviews.slice(0,3);
-    // const navigate = useNavigate();
-    // const showAllReview = () => {
-    //     const path = `/reviews/`;
-    //     navigate(path);
-    // }  
     return (
-        <div>
+        <div className='revie-in-page-style'>
             <h2>Customers review ({slicedReviews.length})</h2>
             {
                 slicedReviews.map(review => <ReviewInPage
@@ -21,7 +17,7 @@ const ReviewsInPage = () => {
                 review={review}
                 ></ReviewInPage>)
             }
-            <button><Link to='/reviews'>See All Reviews</Link></button>
+            <button className='btn-style-set'><Link className='link-style' to='/reviews'>See All Reviews</Link></button>
         </div>
     );
 };

@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css'
+import ReviewsInPage from './ReviewsInPage/ReviewsInPage';
 
 const Home = () => {
     return (
@@ -12,7 +13,9 @@ const Home = () => {
             <div className='image-style'>
                 <img src="https://www.hp.com/us-en/shop/app/assets/images/product/2L4H0AV_MB/center_facing.png?_=1638007577867&imwidth=270&imdensity=1" alt="" />
             </div>
+            <ReviewsInPage></ReviewsInPage>
         </div>
+        
     );
 };
 

@@ -59,8 +59,8 @@ const MyLineChart = () => {
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Bar dataKey="investment" fill="#8884d8" />
-                <Bar dataKey="revenue" fill="#82ca9d" />
+                <Bar dataKey="investment" stackId="a" fill="#8884d8" />
+                <Bar dataKey="revenue" stackId="a"  fill="#82ca9d" />
             </BarChart>
         </div>
 
